@@ -8,7 +8,7 @@ public class ByteExample {
 		byte var3 = 0;
 		byte var4 = 30;
 		byte var5 = 127;
-		byte var6 = 128; //컴파일 에러가 날것임
+		byte var6 = 128; //byte 타입 변수 허용 번위를 초과했기에 컴파일 에러가 발생할 것임
 
 		System.out.println(var1);
 		System.out.println(var2);
