@@ -6,7 +6,7 @@ public class LongOperationExample {
 		byte value1 = 10;
 		int value2 = 100;
 		long value3 =1000L;
-		long result = value1 + value2+ value3;
+		long result = value1 + value2+ value3; //자동으로 타입 변환됨
 		System.out.println(result);
 		
 	}
